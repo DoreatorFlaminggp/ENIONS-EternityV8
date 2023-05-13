@@ -59,7 +59,7 @@ Developer Tools : ENIONS•ETERNITY
         '''+Style.RESET_ALL)
 
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    bytes = random._urandom(2333)
+    bytes = random._urandom(16)
 
     def chech_con():
         try:
@@ -139,5 +139,4 @@ Developer Tools : ENIONS•ETERNITY
         print(Fore.RED+Style.BRIGHT+"\nDihentikan oleh pengguna"+Fore.RESET)
 
 
-
-ENIONS-EternityV3()
+ddos()
