@@ -131,8 +131,6 @@ Developer Tools : ENIONS•ETERNITY
                 bytes=1
             elif port==65534:
                 port=1
-                if ping==65534:
-                ping=1
     except Exception as e:
         print(Fore.RED+Style.BRIGHT+"Selesai\nAlasan: ",e,Fore.RESET)
         time.sleep(3)
